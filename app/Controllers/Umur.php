@@ -9,7 +9,7 @@ class Pekerjaan extends BaseController
 {
     use ResponseTrait;
     function __construct(){
-        $this->model = new ModelUmur();
+        $this->model = new ModelPekerjaan();
     }
     public function index()
     {
